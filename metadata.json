@@ -1,0 +1,8 @@
+{
+  "name": "monistor",
+  "description": "Autofix monitors to hardcoded configuration",
+  "uuid": "monistor@msd3.io",
+  "shell-version": [
+    "40"
+  ]
+}

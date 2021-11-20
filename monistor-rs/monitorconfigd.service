@@ -1,0 +1,13 @@
+[Unit]
+Description=Example Service
+After=multi-user.target graphical.target dbus.socket
+Requires=dbus.socket
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=3
+ExecStart=/home/msd/bin/monitorconfigd
+
+[Install]
+WantedBy=multi-user.target
